@@ -19,15 +19,16 @@ body {
 }
 
 .card-img {
-  width: 8rem;
-  height: 8rem;
+  width: 12rem;
+  height: 12rem;
   margin-left: auto;
   margin-right: auto;
 }
 
 .btnPrimary {
-  background-color: #aa1fae;
-  color: #e0bec3fd;
+  /* background-color: #aa1fae; */
+  border: 1px solid #e0bec3fd;
+  color: #aa1fae;
 }
 
 /* header {
