@@ -5,7 +5,8 @@ window.onscroll = function () {
 };
 
 function myFunction() {
-    if (document.documentElement.scrollTop > 10) {
+    if (document.documentElement.scrollTop > 0.5) {
+        console.log(document.documentElement.scrollTop);
         element.classList.add('animate__zoomIn');
     } else {
         console.log('hello');
