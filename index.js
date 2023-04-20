@@ -6,7 +6,7 @@ window.onscroll = function () {
 
 function myFunction() {
     if (document.documentElement.scrollTop > 10) {
-        element.classList.add('animate__animated', 'animate__zoomIn'.replace(/\s+/g, '-'));
+        element.classList.add('animate__zoomIn');
     } else {
         console.log('hello');
     }
