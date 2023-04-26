@@ -1,15 +1,20 @@
+let element1 = document.getElementById("first-animate");
+let element2 = document.getElementById("second-animate");
+let element3 = document.getElementById("third-animate");
+let element4 = document.getElementById("fourth-animate");
 
-window.onscroll = function() {myFunction()};
+
+window.onscroll = function () { myFunction() };
 
 function myFunction() {
   if (document.documentElement.scrollTop > 10) {
     console.log(document.documentElement.scrollTop);
-    document.getElementById("first-animate").classList.add ("animate__zoomIn");
-  }
+    element1.classList.add("animate__slideInUp");
+  };
   if (document.documentElement.scrollTop > 250) {
     console.log(document.documentElement.scrollTop);
-    document.getElementById("second-animate").classList.add ("animate__fadeInUpBig");
-    document.getElementById("third-animate").classList.add ("animate__fadeInLeft");
-    document.getElementById("fourth-animate").classList.add ("animate__fadeInRight");
+    element2.classList.add("animate__fadeInUpBig");
+    element3.classList.add("animate__fadeInLeft");
+    element4.classList.add("animate__fadeInRight");
   }
 }
